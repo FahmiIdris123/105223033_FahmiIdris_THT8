@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>About Me</title>
+    <style>
+        /* Kita biarkan background-color di sini, atau pindahkan juga ke style.css */
+        body {
+            background-color: lightblue; 
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1 class="header-title">PORTOFOLIO</h1>
+    </header>
+
+    <div class="card-aboutme">
+        <img src="saya.JPEG" alt="saya" width="200" height="250"> 
+        <h2>About Me</h2>
+        <p class="nama">Nama : Fahmi Idris</p>
+        <p>Umur : 20 Tahun</p>
+        <p>Alamat : Slipi, Jakarta</p>
+        <button>More About Me</button>
+    </div>
+
+    <div class="card-datadiri">
+        <h2>Profile</h2>
+        <h3>Junior Network Engineer</h3>
+        <ul>
+            <li>
+                Pendidikan :
+                <ul>
+                    <li>SMK IDN Boarding School (2020-2023)</li>
+                    <li>Universitas Pertamina (2023-Sekarang)</li>
+                </ul>
+            </li>
+            <li>
+                Pengalaman
+                <ul>
+                    <li>IT Support Pt Cemindo Gemilang (18 Januari 2022 - 18 Juni 2022)</li>
+                    <li>IT Support Pt Elnusa Petrofin (10 Agustus 2022 - 28 Oktober 2022)</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <section id="contact-me" class="contact-container">
+        <h2>Kontak Saya 📧</h2>
+        <p>Silakan tinggalkan pesan Anda:</p>
+
+        <form id="form">
+            <div class="input">
+                <input type="text" placeholder="Nama Lengkap" id="inputNama" class="form-input">
+                <p class="error-message" id="errorNama"></p>
+            </div>
+            
+            <div class="input">
+                <input type="email" placeholder="Email Anda" id="inputEmail" class="form-input">
+                <p class="error-message" id="errorEmail"></p>
+            </div>
+
+            <div class="input">
+                <textarea placeholder="Pesan untuk saya..." id="inputPesan" rows="5" class="form-input"></textarea>
+                <p class="error-message" id="errorPesan"></p>
+            </div>
+
+            <button id="button" type="submit" class="submit-button">Kirim Pesan</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy 2025 Fahmi . Semua hak cipta Dilindungi</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
